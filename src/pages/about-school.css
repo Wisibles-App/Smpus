@@ -1,0 +1,53 @@
+.about_schol_div{
+    box-shadow: none !important;
+    padding: 16px !important
+}
+.school_img{
+    height: auto !important;
+    width: auto !important;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* margin-top: 20px !important; */
+        background-color: var(--ion-color-tertiary);
+}
+img{
+    width: auto !important;
+}
+.bold_cls{
+    font-weight: bold !important;
+}
+.designation{
+    word-break: break-word !important;
+}
+.social_main{
+    margin-top: 20px;
+}
+.socila_linkedin_icon{
+    height: 40px;
+    width: 40px;
+}
+.socila_web_icon{
+    height: 40px;
+    width: 40px;
+}
+.socila_insta_icon{
+    height: 40px;
+    width: 40px;
+}
+.socila_fb_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.social_layout2{
+ justify-items: center;
+}
+.logo_img_abtSchool {
+    .logo_img {
+    height: auto;
+    margin-left: 25px;
+    /* margin-top: 8px; */
+    margin-bottom: 20px;
+
+}
+}

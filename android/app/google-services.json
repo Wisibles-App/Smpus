@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "817566510766",
+    "project_id": "smpus-ce8bb",
+    "storage_bucket": "smpus-ce8bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817566510766:android:981d2f9d5d967c6dee073f",
+        "android_client_info": {
+          "package_name": "com.wisibles.smpus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4mxpCoFwCJPfLcvL7OgsFWh1xNTm2ihI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+

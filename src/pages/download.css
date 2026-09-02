@@ -1,0 +1,51 @@
+.toolbar_class{
+    --background: var(--ion-color-primary);
+    --color:var(--ion-color-primary-contrast);
+    font-size: 18px;
+    /* margin-bottom: 2px !important; */
+    text-transform: uppercase !important;
+}
+
+
+
+
+
+ion-segment-button {
+font-size: 12px;
+letter-spacing: 0;
+}
+.dwn_img_class{
+    height: 20px;
+    width: 20px;
+}
+.download_material_box{
+    margin-bottom: 15px;
+}
+.download_material{
+    background:var(--ion-color-tertiary);
+  
+    padding:10px;
+}
+
+.download_material_title{
+color:var(--ion-color-primary-contrast);
+font-size:14px;
+}
+.download_material_date{
+    color:var(--ion-color-primary-contrast);
+    font-size:14px;
+}
+
+.image_download_row{
+    margin-top:5px;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+
+ion-segment-button::part(indicator-background){
+    --indicator-height: 2.1px;
+}
+.segment_btm_pad{
+    padding-top: 4px !important;
+}

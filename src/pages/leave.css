@@ -1,0 +1,78 @@
+.apply_leave_header{
+    background:var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+    
+    padding: 5px 10px;
+
+}
+.apply_leave_details{
+    padding: 5px 10px;
+    background:var(--ion-color-primary-contrast);
+}
+.apply_leave_header .leave_header_img{
+    width:20px;
+    height:20px;
+}
+
+.from_date_h{
+color:var(--ion-color-tertiary-contrast);
+font-weight: bold;
+font-size: 16px;
+
+}
+.to_date_h{
+    color:var(--ion-color-tertiary-contrast);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.leave_status_btn {
+    background:var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+    border-radius: 4px;
+    text-transform: capitalize;
+    padding:4px;
+    text-align: center;
+}
+.leave_status_btn_green {
+    background: green !important;
+    color:var(--ion-color-primary-contrast);
+    border-radius: 4px;
+    text-transform: capitalize;
+    padding:4px;
+    text-align: center;
+}
+.leave_status_btn.pending{
+    background:var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+    border-radius: 4px;
+    text-transform: capitalize;
+    padding:4px;
+}
+.leave_status_btn.approved{
+    background:var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+    border-radius: 4px;
+    text-transform: capitalize;
+    padding:4px;
+}
+.leave_status_btn.pending{
+    background:var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+    border-radius: 4px;
+    text-transform: capitalize;
+    padding:4px;
+}
+
+.apply_leave_box{
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px 0px #888888;
+}
+
+ion-fab{
+    position: absolute;
+    bottom: 22px;
+    right: 22px;
+    z-index: 999;
+}
+

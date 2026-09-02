@@ -1,0 +1,267 @@
+.logo_class{
+   
+}
+.child_cancel_cls{
+    height: 30px;
+    width: 30px;
+    margin: auto !important;
+}
+.native-input{
+    padding: 20px !important
+}
+.button_class{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 18px;
+    --color: #fff;
+    font-weight: bold;
+    --background: #f3d134;
+   --border-radius: 4px !important;
+   --background-focused: #f3d134;
+   --ripple-color: #f3d134;
+   --transition: #f3d134;
+   --background-activated: #f3d134;
+   height: 50px;
+   color: black;
+   --box-shadow: none;
+}
+
+.button_class_signIn{
+    width: 30%;
+    margin-left: 60%;
+    font-size: 18px;
+    --color: #fff;
+    font-weight: bold;
+    --background: #f3d134;
+   --border-radius: 40px !important;
+   --background-focused: #f3d134;
+   --ripple-color: #f3d134;
+   --transition: #f3d134;
+   --background-activated: #f3d134;
+   height: 50px;
+   color: black;
+   --box-shadow: none;
+
+}
+
+.input_class{
+    margin-bottom: 20px;
+    border: 1px solid lightgray !important;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    padding-left: 25px;
+    color: gray;
+    border-radius: 40px;
+}
+.input_class ::placeholder{
+    padding-left: 8px;
+    font-size: 15px;
+    color: gray;
+}
+.main_div{
+    margin-top: 20% !important;
+}
+.emial_class{
+    height: 30px;
+    width: 30px;
+    color: gray;
+    margin: 8px 16px 8px 8px;
+}
+.content_class {
+    /* --background: url('../../public/assets/images/bg.png') no-repeat center center fixed;  */
+    /* --background: #fff url("../../public/assets/images/bg.png") no-repeat center center / cover; */
+    --background: #fff;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; */
+}
+.h_class{
+    text-align: center;
+    color:#000;
+}
+.p_class{
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color:#000;
+}
+
+.student_name{
+margin:0 0 0 32px;
+}
+.student_class{
+    margin:0 0 0 32px;
+    color:#7E7F81;
+    text-transform: uppercase;
+}
+
+.child_list_box{
+    position: fixed;
+    background: #fff;
+    bottom: 0;
+    max-height: 320px;
+    height: 320px;
+    z-index: 500;
+    width: 100% !important;
+}
+
+.child_list_header_row{
+    background:#ccc;
+}
+.child_list_box_header{
+  
+    font-size: 16px;
+    color:#000;
+    padding:10px 15px;
+}
+.child_list_row{
+    padding:10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 5px;
+}
+.child_main_col_cls::part(image)
+{
+    border-radius: 50% !important;
+    height: 50px;
+    width: 50px;
+}
+.main_child_row_cls{
+    padding:  16px !important;
+    border-bottom: 2px solid lightgray;
+}
+.garde_child_cls{
+    margin: 8px !important;
+}
+.login_main_img_class{
+    margin: auto !important;
+    width: 200px !important;
+    height: 200px !important;
+}
+.forgot_img_cls{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    margin-left: 12px !important;
+    margin-top: 2px !important;
+}
+.forgot_class{
+    font-weight: bold;
+    font-size: 14px;
+    color: var( --ion-color-primary);
+    margin-left: 30px;
+    position: relative !important;
+    display: flex !important;
+}
+.forgot_text_cls{
+    font-size: 16px;
+    color: var( --ion-color-primary);
+    margin-left: 5% !important;
+    font-weight: 500 !important;
+}
+.select_cls{
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+}
+.underline{
+    text-decoration: underline !important;
+    margin-left: 8px;
+}
+.check_margin{
+   
+}
+.forgot_item_cls{
+    --inner-border-width: 0px 0px 0px 0px !important;
+    color: gray !important;
+}
+.forgot_p_cls{
+    padding-left: 8px !important;
+    width: 25%;
+}
+.forget_posi_wid{
+     margin-top: '-19%';
+     width:'50%'
+}
+.radioGroup{
+    display: flex !important;
+}
+.custom-label {
+    flex: 1; /* This ensures the label takes up the available space */
+    cursor: pointer; /* Make the label appear clickable */
+  }
+  
+  .custom-checkbox {
+    margin-right: 10px;
+  }
+  .p_terms_cls{
+    margin-left: 5%;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 5% !important;
+  }
+  
+  .check_margin {
+    margin-right: 8px; /* Adjust as needed */
+  }
+  
+  .select_cls {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  /* Additional styling for the checkbox, adjust as needed */
+  ion-checkbox {
+    --color-checked: #333;
+    --border-color: #333;
+  }
+  /* Background styles */
+.background-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Make sure your content is visible on top of the background */
+.login-content {
+  position:fixed;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight white overlay for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+/* Adjust your existing styles as needed to work with the background */
+.main_div {
+  /* Your existing styles */
+  background: transparent; /* Remove any background color */
+}
+
+.input_class, .button_class {
+  /* Make sure inputs and buttons are visible */
+  background: rgba(255, 255, 255, 0.9);
+}

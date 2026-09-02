@@ -1,0 +1,63 @@
+.chat_content_class{
+     --background: #E3E3E3 !important;
+}
+.chat_p_cls{
+    min-height: 30px !important;
+    background: #ffffff !important;
+    padding: 6px 20px !important;
+    border-radius: 5px !important;
+}
+
+.chat_img_class::part(image)
+{
+    /* border-radius: 50% !important; */
+    height: 100px;
+    width: 180px;
+}
+
+
+.chat_main_row_cls .chat_img_class{
+
+}
+.chat_main_row_cls{
+    margin: 0px 20px !important;
+}
+.triangle {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+  }
+  .triangle-1 {
+    width: 60px;
+    height: 60px;
+    border-bottom: solid 30px #ffffff;
+    border-right: solid 30px #ffffff;
+    border-left: solid 30px transparent;
+    border-top: solid 30px transparent;
+    transform: rotate(270deg);
+    position: absolute !important;
+    top: 21px !important;
+    left: -16px !important;
+    z-index: -1;
+  }
+  .pdf_class_groups{
+    /* height: 40px !important; */
+    background-color: lightgray !important;
+    border: 2px solid lightgray !important;
+    border-radius: 50px !important;
+
+  }
+  .pdf_class_file{
+    margin-bottom: 4px;
+    margin-left: 12px;
+  }
+  .pdf_img_class
+  {
+    margin-top: 2px !important;
+    display: flex;
+  }
+  .time_stamp_cls{
+    color: gray;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+  }

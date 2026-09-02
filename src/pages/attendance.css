@@ -1,0 +1,166 @@
+.present_img{
+color:var(--ion-color-primary-contrast);
+width:20px;
+height:20px;
+border-radius:50%;
+background:#0A7C0A;
+}
+.absent_img{
+    color:var(--ion-color-primary-contrast);
+width:20px;
+height:20px;
+border-radius:50%;
+    background:#760F13;
+}
+.late_img{
+    color:var(--ion-color-primary-contrast);
+width:20px;
+height:20px;
+border-radius:50%;
+    background:#F6F511;
+}
+.halfday_img{
+    color:var(--ion-color-primary-contrast);
+width:20px;
+height:20px;
+border-radius:50%;
+    background:#FD970E;
+}
+.holiday_img{
+    color:var(--ion-color-primary-contrast);
+width:20px;
+height:20px;
+border-radius:50%;
+    background:#979797;
+}
+.react-calendar{
+    width: 96% !important;
+    margin-left: 2% !important;
+    margin-top: 2% !important;
+    background: #fff !important;
+}
+.react-calendar__tile--active
+{
+    /* background: var(--ion-color-secondary) !important; */
+    background: #ffffff !important;
+}
+.main_attnd_row{
+    margin-top: 16px !important;
+}
+.react-calendar button {
+    font-size: 16px !important;
+    color: var(--ion-color-primary) !important;
+}
+
+.react-calendar__tile{
+font-weight: bold !important;
+}
+.react-calendar__navigation button {
+    font-size: 18px !important;
+    color: var(--ion-color-primary) !important;
+}
+.react-calendar__navigation {
+   display: none !important; 
+}
+.react-calendar__month-view__days__day--weekend {
+    color: #979797 !important;
+    font-weight: bold;
+}
+.react-calendar__tile--now{
+    /* background: var(--ion-color-secondary) !important; */
+    border-radius: 50% !important;
+    background:#ffffff !important;
+    border: 1px solid var(--ion-color-secondary) !important;
+}
+.fc-button-group{
+    display: none !important;
+}
+.fc .fc-button:disabled
+{
+    display: none !important;
+
+}
+.fc .fc-toolbar.fc-header-toolbar
+{
+    margin: auto!important;
+    padding: 10px 0px;
+}
+
+/* .present{
+    color: green !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+} */
+.fc-h-event.present  {
+    display: block !important;
+    border: 1px solid green !important;
+    border: 1px solid var(--fc-event-border-color, #3788d8) !important;
+    background-color:  green !important;
+    background-color: var(--fc-event-bg-color, green) !important;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;;
+} 
+.fc-h-event.half_day  {
+    display: block !important;
+    border: 1px solid #FD970E !important;
+    border: 1px solid var(--fc-event-border-color, #FD970E) !important;
+    background-color: #FD970E !important;
+    background-color: var(--fc-event-bg-color, #FD970E) !important;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;;
+} 
+.fc-h-event.absent  {
+    display: block !important;
+    border: 1px solid #760F13 !important;
+    border: 1px solid var(--fc-event-border-color, #760F13) !important;
+    background-color:  #760F13 !important;
+    background-color: var(--fc-event-bg-color, #760F13) !important;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;;
+} 
+.fc-h-event.late  {
+    display: block !important;
+    border: 1px solid #F6F511 !important;
+    border: 1px solid var(--fc-event-border-color, #F6F511) !important;
+    background-color:  #F6F511 !important;
+    background-color: var(--fc-event-bg-color, #F6F511) !important;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;;
+} 
+.fc-h-event.holiday  {
+    display: block !important;
+    border: 1px solid #979797 !important;
+    border: 1px solid var(--fc-event-border-color, #979797) !important;
+    background-color:  #979797 !important;
+    background-color: var(--fc-event-bg-color, #979797) !important;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;;
+} 
+.fc .fc-view-harness{
+    height: 330px !important;
+
+}
+.fc .fc-daygrid-day-frame {
+    justify-content: center !important;
+    display: grid !important;
+}
+.fc .fc-toolbar-title
+{
+    font-size: 16px !important;
+}
+
+.fc-sun { 
+    --color:#337ab7 !important;  
+    --border-color: black !important;  
+    --background-color: #ffa58c !important; 
+}
+.fc-sun{ 
+    --color:#FFF; 
+    --background: red;
+}

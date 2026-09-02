@@ -1,0 +1,188 @@
+.no_margin{
+    margin:0;
+}
+.logout_image_cls::part(image){
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.parent_info_values{
+    color: #7E7F81 !important;
+    font-size: 14px !important;
+   margin-left: 4px !important;
+}
+.parent_profile_pic::part(image)
+{
+    border-radius: 50% !important;
+    height: 75px;
+    width: 75px;
+}
+.parent_profile_pic
+{
+    margin-right: 10px;
+}
+.main_col_image{
+     
+}
+.profile_border_right{
+    border-right: 2px solid lightgrey !important;
+}
+
+   
+   
+   
+   .profile_page_content2{
+    /* --background:#FFF;
+     --background: #FFF;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    --padding-start: 16px;
+    --padding-end: 16px; */
+   }
+   
+   .student_info_grid{
+    background: var(--ion-color-tertiary);
+    padding: 15px;
+    color: var(--ion-color-tertiary-contrast) !important;
+   }
+   /* ion-header ion-toolbar{
+        --background: #221E1E;
+    --color: #fff;
+    }
+    ion-header ion-back-button {
+        display: block;
+        color: #fff;
+    }
+
+    ion-segment{
+        background:#fff; 
+        margin-bottom: 8px;
+    }
+
+    ion-segment-button{
+        color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    } */
+
+    .avatar_img{
+  margin:auto;
+}
+.parents_info_box{
+    background:#fff;
+}
+.parents_info{
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background:#fff;
+    margin-left: 10px !important;
+    align-items: center !important;
+}
+
+.parents_info .profile_name{
+    font-weight:600;
+    color: var(--ion-color-primary-contrast) !important;
+}
+.parents_info .avatar_img img{
+    border-radius: 50%;
+    width:55px;
+    height:55px;
+}
+
+.info_icon{
+    display: flex;
+    height: 20px;
+}
+
+.profile_name{
+font-weight: bold;
+font-size: 16px;
+color: var(--ion-color-primary-contrast) !important;
+}
+
+.admission_no{
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--ion-color-primary-contrast) !important;
+}
+
+.class{
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--ion-color-primary-contrast) !important;
+}
+
+.roll_no{
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--ion-color-primary-contrast) !important;
+}
+
+.info_icon.name{
+margin-bottom: 8px;
+font-weight: bold;
+}
+.info_icon.occupation{
+    margin-bottom: 8px;
+    font-weight: bold;
+    }
+    .info_icon.number{
+        margin-bottom: 8px;
+        font-weight: bold;
+        }
+
+        .info_icon ion-img{
+            margin-right:5px;
+        }
+  .personal_details_box{
+    margin:0 20px;
+  }
+
+  .personal_details_info_box{
+    padding-left:20px;
+  }
+        .personal_details_h{
+            font-weight: bold;
+            color:#000;
+            text-transform: uppercase !important;
+        }
+      
+        .personal_details_info{
+            font-weight: bold;
+            color:#7E7F81;
+            text-transform: uppercase !important;
+        }
+
+
+        .parents_info:first-child{
+            margin-top:15px;
+            margin-left: 10px;
+        }
+
+        .profile_h{
+         padding-left:20px;
+        }
+
+        .info_icon.name{
+            color:#7E7F81;
+        }
+        .info_icon.occupation{
+            color:#7E7F81;
+        }
+        .info_icon.number{
+            color:#7E7F81;
+        }
+
+        ion-segment-button.ios.segment-button-checked{
+--border-color:transparent !important;
+--border-width: 0;
+    /* --border-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.12); */
+    --border-style: none;
+        }
+        .text_upper_case{
+            text-transform: uppercase !important;
+        }
+        .guardian{
+            margin-bottom: 16px !important;
+        }

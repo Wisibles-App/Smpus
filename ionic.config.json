@@ -1,0 +1,8 @@
+{
+  "name": "smpus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "capacitor": {}
+}

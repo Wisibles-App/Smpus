@@ -1,0 +1,32 @@
+.fee_status_class{
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 2px;
+    width: 105px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0px;
+    background-color: var(--ion-color-tertiary);
+}
+.green_bg_class{
+background-color: #008000 !important;
+}
+.red_bg_class{
+    background-color: #FF0000 !important;
+}
+.black_class{
+    color: black !important;
+}
+.light_gary_class{
+    color: lightgray;
+}
+.gary_class{
+    color: gray;
+}
+.org_text_class{
+    color: var(--ion-color-tertiary) !important;
+}
+.green_text_class{
+    color: green !important
+}

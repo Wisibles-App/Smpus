@@ -1,0 +1,254 @@
+/* Exam Schedule Card Styles */
+.exam-schedule-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.exam-card-header {
+  background-color: #f0f0f0;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.exam-card-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.exam-card-content {
+  padding: 0;
+}
+
+.details-grid {
+  padding: 0;
+}
+
+.detail-row {
+  padding: 12px 20px;
+  border-bottom: 1px solid #f8f9fa;
+  align-items: center;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-label {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+  min-width: 100px;
+  text-align: left;
+}
+
+.detail-separator {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.detail-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2c3e50;
+  flex: 1;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .exam-schedule-card {
+    margin-bottom: 16px;
+  }
+  
+  .exam-card-header {
+    padding: 14px 16px;
+  }
+  
+  .exam-card-title {
+    font-size: 14px;
+    font-weight:bold
+  }
+  
+  .detail-row {
+    padding: 7px;
+  }
+  
+  .detail-label {
+    font-size: 13px;
+    min-width: 90px;
+  }
+  
+  .detail-value {
+    font-size: 12px;
+  }
+  
+  .detail-separator {
+    font-size: 13px;
+  }
+}
+
+
+/* Main Card Styles */
+.result-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+/* Exam Name Header */
+.exam-name-header {
+ background: #efefef;
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.exam-name-text {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+/* Table Header */
+.table-header {
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: bold;
+}
+
+.table-header-col {
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 12px;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 44px;
+  color: #333;
+}
+
+.table-header-col:last-child {
+  border-right: none;
+}
+
+/* Table Data Rows */
+.table-data-row {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-data-row:last-child {
+  border-bottom: none;
+}
+
+.table-data-col {
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 12px;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  color: #333;
+}
+
+.table-data-col:last-child {
+  border-right: none;
+}
+
+.subject-name-col {
+  flex-direction: column;
+  gap: 2px;
+}
+
+.subject-name-main {
+  /* font-weight: bold; */
+}
+
+.subject-code-sub {
+  font-size: 10px;
+  color: #333;
+}
+
+/* Summary Section */
+.summary-section {
+  padding: 16px;
+  background: #efefef
+}
+
+.summary-row {
+  margin-bottom: 12px;
+}
+
+.summary-row:last-child {
+  margin-bottom: 0;
+}
+
+.summary-col {
+  display: flex;
+  align-items: center;
+  /* padding: 8px; */
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.summary-label {
+  font-size: 12px;
+  color: #333;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.summary-value {
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Result Status */
+.result-status.pass {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.result-status.fail {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .table-header-col,
+  .table-data-col {
+   font-size: 12px;
+    padding: 8px 4px;
+  }
+  
+  .summary-label,
+  .summary-value {
+    font-size: 11px;
+  }
+  
+  .summary-item {
+    gap: 6px;
+  }
+}

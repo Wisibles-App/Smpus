@@ -1,0 +1,19 @@
+.main_div_sche{
+    /* padding:15px; */
+}
+.min_max_class{
+    padding: 8px;
+}
+.no_margin_none{
+    margin-bottom: 2px;
+}
+.min_max_class .start_time_h{
+    /* font-weight:bold; */
+}
+
+.alert-title.sc-ion-alert-md{
+    font-size: 17px;
+}
+.alert-button-inner.sc-ion-alert-md{
+    color: #5762d7;
+}

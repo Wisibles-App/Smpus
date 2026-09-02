@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">smpus</string>
+    <string name="title_activity_main">smpus</string>
+    <string name="package_name">com.wisibles.smpus</string>
+    <string name="custom_url_scheme">com.wisibles.smpus</string>
+</resources>

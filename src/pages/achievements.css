@@ -1,0 +1,19 @@
+.achievements_img_class{
+    /* margin-left: 20% !important;
+    margin-right: 20%; */
+    width: 50%;
+    margin-left: 25%;
+}
+.achievement_cls_div{
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px 0px #888888;
+}
+.achievement_cls_div_inner{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.view_cls{
+    color: #FD970E !important;
+    text-align: center;
+}

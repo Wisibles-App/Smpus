@@ -1,0 +1,23 @@
+.exam_type{
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 3px 0px #888888;
+}
+
+.exam_link{
+    color:#5762d7;
+}
+
+.exam_type_header{
+    background:var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+   
+}
+.exam_img_class{
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+}
+.view_img_class_white{
+    height: 30px !important;
+    width: 30px !important;
+}

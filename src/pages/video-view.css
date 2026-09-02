@@ -1,0 +1,45 @@
+.flipped_video_exam_details{
+    background: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 1px 3px 0px #888888;
+}
+
+.video_view_content{
+    --background:#fff;
+}
+.font_bold{
+    font-weight: bold !important;
+}
+
+.start_exam_btn{
+    text-transform: capitalize;
+    --border-radius: 50px;
+    --background:var(--ion-color-primary-contrast);
+    --color:#F8962d;
+    font-size:20px;
+    margin:auto;
+    --box-shadow:none;
+    margin-top: 20px !important;
+    width: 50% !important;
+}
+.start_exam_btn::part(native){
+    border-radius: 50px;
+    border: 2px solid #F8962d;
+    --background:var(--ion-color-primary-contrast);
+    --color:#F8962d;
+}
+.thumb_nail_img{
+    margin: 30px 30px 20px 30px;
+}
+.thumb_nail_img::part(native){
+    border-radius: 25px;
+}
+.flipped_video_exam_details .row_h{
+ font-weight: bold;
+}
+.f_v_e_d{
+    color: #787878;
+}

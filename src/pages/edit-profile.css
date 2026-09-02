@@ -1,0 +1,16 @@
+.edit_profile_label_cls{
+    color: black !important;
+}
+.input_margin_lable{
+    margin-top: 12px !important;
+}
+.btn_submit_fixed{
+   bottom: 0px !important;
+   position: fixed;
+   z-index: 10;
+   height: 46px !important;
+}
+.margin_btm_50_px{
+    padding-bottom: 150px;
+    
+}

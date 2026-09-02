@@ -1,0 +1,14 @@
+.double_arrow_class{
+    height: 25px !important;
+    width: 25px !important;
+}
+.group_list_cls{
+    padding: 20px 0px !important;
+}
+.row_box_shadow_cls{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 16px 0px !important;
+}
+.group_name_cls{
+    padding-left: 12px !important;
+}

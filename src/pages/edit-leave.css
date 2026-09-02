@@ -1,0 +1,45 @@
+.edit_leave_input{
+    margin:10px;
+}
+.edit_leave_input .input_box{
+    border: 2px solid #DEDEDE;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 10px !important;
+}
+
+.edit_leave_from{
+    padding-inline-start:0 !important;
+}
+.edit_leave_to{
+    padding-inline-end:0 !important;
+}
+.select_file_to_upload_h{
+    text-align: center;
+}
+.edit_file_choose_file_btn{
+    /* --background: black; */
+    --background: var(--ion-color-primary);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: normal;
+}
+.edit_file_choose_file_btn::part(native){
+     border-radius: 50px;
+}
+
+.edit_leave_submit_btn{
+  
+
+    --background: var(--ion-color-tertiary);
+    --color: var(--ion-color-tertiary-contrast);
+    width: 100%;
+    padding: 0 10px;
+
+
+
+
+
+
+}

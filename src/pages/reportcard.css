@@ -1,0 +1,23 @@
+.report_card_title{
+    background:var(--ion-color-tertiary);
+    padding:10px 0; 
+    color:var(--ion-color-primary-contrast);
+}
+.result_status_class{
+    background-color: #42d77d;
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px 2px;
+    width: 105px;
+    text-align: center;
+    width: 100%;
+    border-radius: 16px;
+    margin: 0px;
+}
+.note_class{
+    margin: 8px !important;
+}
+.report_card{
+    background-color: #f4f5f8;
+    padding: 8px !important;
+}

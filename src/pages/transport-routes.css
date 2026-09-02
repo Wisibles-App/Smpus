@@ -1,0 +1,94 @@
+.profile_page_content {
+  /* padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  --padding-start: 16px;
+  --padding-end: 16px; */
+}
+
+/* Heading + Image section */
+.transport_header {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.transport_text_col {
+  display: flex;
+  align-items: center;
+}
+
+.transport_heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.transport_image_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transport_img {
+  max-width: 70px;
+  height: auto;
+}
+
+/* Card */
+.transport_card_box {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin: 12px 0;
+}
+
+/* Title Row */
+.transport_title_row {
+  margin-bottom: 12px;
+}
+
+.transport_title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Info Rows */
+.personal_details_info_box {
+  margin-bottom: 10px;
+}
+
+.personal_details_h {
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: #555;
+}
+
+.personal_details_info {
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: #222;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 480px) {
+  .transport_header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .transport_text_col {
+    justify-content: center;
+  }
+
+  .transport_heading {
+    font-size: 1rem;
+  }
+
+  .transport_img {
+    max-width: 60px;
+    margin-top: 8px;
+  }
+}

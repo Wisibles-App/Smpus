@@ -1,0 +1,99 @@
+.alert-wrapper{
+max-width: 362px;
+}
+
+.no_margin{
+    margin:0;
+}
+.lesson_time_table{
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background:#fff;
+}
+.lesson_time_table_h{
+    background: var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+    padding:10px 15px;
+}
+.lesson_time_table .lesson{
+    color:var(--ion-color-primary-contrast);
+    font-weight:bold;
+    font-size: 16px;
+
+    background: var(--ion-color-tertiary);
+}
+.lesson_time_table .date{
+    color:var(--ion-color-primary-contrast);
+    font-weight:bold;
+    font-size: 16px;
+   
+    background: var(--ion-color-tertiary);
+}
+.lesson_table_headings .time_h{
+    color:#000;
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.lesson_table_headings .subject_h{
+    color:#000;
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.lesson_table_headings .room_no_h{
+    color:#000;
+    font-weight:bold;
+    font-size: 16px;
+}
+.time_table_details{
+    background-color: #fff;
+    padding:10px;
+}
+
+.lesson_table_details span{
+    color:#787878;
+}
+.lesson_table_details{
+    padding:10px;
+}
+.lesson_table_headings{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding: 12px 10px 0 10px;
+}
+.date_range_class{
+   padding:5px;
+
+}
+.lesson_img_class{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-right: 34px;
+    
+
+}
+
+.date_left_arw_img_class{
+    width:20px;
+    height:20px;
+   
+}
+.date_right_arw_img_class{
+    width:20px;
+    height:20px;
+   
+}
+.time_h{
+    font-weight:bold;
+}
+.subject_h{
+    font-weight:bold;
+}
+.syllabus_h{
+    font-weight:bold;
+}
+
+

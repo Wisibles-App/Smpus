@@ -1,0 +1,131 @@
+.comm_head_1{
+    font-size:12px;
+    color:var(--ion-color-tertiary-contrast);
+    margin:15px;
+}
+.comm_head_2{
+    font-size:14px;
+    color:var(--ion-color-tertiary-contrast);
+    margin:15px;
+    color:grey;
+}
+.callus_btn{
+  color:var(--ion-color-tertiary);
+  font-size:14px;
+  border:1px solid var(--ion-color-tertiary);
+  border-radius: 4px;
+  width:90%;
+  text-transform: capitalize;
+ --background: #fff !important;
+}
+.mailus_btn{
+    --background:var(--ion-color-tertiary);
+    color:var(--ion-color-primary-contrast);
+    font-size:14px;
+    border-radius: 4px;
+    width:90%;
+    text-transform: capitalize;
+}
+.send_msg_h{
+    font-weight:bold;
+    color:var(--ion-color-tertiary-contrast);
+    margin:15px;
+}
+/* .num_header{
+      font-size:20px;
+    color:var(--ion-color-tertiary-contrast);
+    margin:15px;
+} */
+.comm_input{
+    padding:15px;
+}
+.comm_input .input_box{
+    border: 2px solid #DEDEDE;
+    border-radius: 5px;
+    height: 50px;
+}
+
+
+.comm_submit_btn{
+  
+
+    --background: var(--ion-color-tertiary);
+    --color: var(--ion-color-primary-contrast);
+    width: 100%;
+    padding: 0 20px;
+
+   --box-shadow:none;
+
+   margin-top:80px;
+
+
+}
+.call_img_class{
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+.mail_img_class{
+    height: 100px;
+    width: 150px;
+    /* background-color: var(--ion-color-tertiary); ADDED BY ME */
+}
+.anchor_cls{
+    display: inherit !important;
+}
+/* .phone-link {
+    text-decoration: underline;
+     align-self :center;
+  } */
+  .select_cls_2{
+    border: 2px solid #DEDEDE;
+    border-radius: 5px;
+    height: 50px;
+    width: 98%;
+    margin-left: 1%;
+    &::part(placeholder) {
+        opacity: inherit;
+        color: gray !important; /* Change the color to your preferred color */
+      }
+  }
+  select-placeholder {
+    opacity: var(100);
+  }
+.contact-list {
+  padding: 14px;
+  margin: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.contact-index {
+
+  font-size: 16px;
+  color: var(--ion-color-primary);
+  width: 30px;          /* Slightly wider for better spacing */
+  padding-left: 4px;    /* This moves the number slightly inward */
+  text-align: right;
+}
+
+.num_header {
+  font-size: 14px;
+ 
+  color: var(--ion-color-tertiary-contrast);
+  min-width: 50%;    /* To align colon (:) cleanly */
+  /* margin: 10px 0 5px; */
+  /* flex: 1; */
+}
+
+.phone-link {
+  font-size: 14px;
+  text-decoration: underline;
+  color: var(--ion-color-primary-shade);
+  white-space: nowrap;
+  font-weight: bold;
+}
+

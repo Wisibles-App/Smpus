@@ -1,0 +1,10 @@
+.child_list_cls{
+    padding: 16px !important;
+}
+.parent_profile_pic_child::part(image)
+{
+    border-radius: 50% !important;
+}
+.row_border_cls{
+    border-bottom: 1px solid lightgray !important;
+}

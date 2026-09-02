@@ -1,0 +1,35 @@
+.gallery-banner {
+  margin: 0px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%; /* full width of IonCol */
+  height: 100%;
+   display: flex;               /* Use flexbox to center */
+  align-items: center;         /* Vertical centering */
+  justify-content: center;
+   
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0px;
+  object-fit:contain;
+
+}
+
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+
+}
+
+.no-data-found-gallery {
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}

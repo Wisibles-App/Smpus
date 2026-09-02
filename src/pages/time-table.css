@@ -1,0 +1,114 @@
+.no_margin{
+    margin:0;
+}
+.day_time_table{
+    /* margin-bottom: 10px; */
+    padding-bottom: 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+   
+}
+.day_time_table_h{
+    background:var(--ion-color-tertiary);
+    padding: 12px;
+    color: white;
+}
+.day_time_table .day{
+    color:var(--ion-color-primary-contrast);
+    font-weight:bold;
+    font-size: 16px;
+    padding:10px 15px;
+    background:var(--ion-color-tertiary);
+}
+
+.time_h{
+    color:var(--ion-color-tertiary-contrast);
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.subject_h{
+    color:var(--ion-color-secondary-contrast);
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.room_no_h{
+    color:var(--ion-color-secondary-contrast);
+    font-weight:bold;
+    font-size: 16px;
+}
+.time_table_details{
+    background-color: #fff;
+    padding:10px 15px;
+}
+
+.time_table_details span{
+    color:#787878;
+}
+.time_table_headings{
+    padding-top: 12px;
+    padding-left: 15px;
+    padding: 12px 15px 0 15px;
+}
+.grid-cls{
+    border: 1px solid black;
+}
+.grid-col-cls{
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+    display: flex;
+    font-size: 14px;
+    height: 50px
+;
+    justify-content: center;
+    align-items: center;
+}
+.scrollable-days {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .day-col {
+    flex-shrink: 0;
+  }
+  
+  .day-box {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer; /* Optional: adds a pointer cursor on hover */
+    font-size: 12px;
+  }
+  
+  /* Highlight selected day */
+  .selected .day-box {
+    background-color: #3f51b5;  /* Change to the color you want for the selected day */
+    color: #fff;                 /* Optional: Change text color when selected */
+  }
+  
+  .scrollable-days::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .scrollable-days::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .scrollable-days::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+
+

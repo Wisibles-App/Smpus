@@ -1,0 +1,62 @@
+.span_class{
+    display: block;
+}
+.no_margin{
+    margin: 0px;
+}
+.books_h_title{
+    margin-right:5px;
+}
+
+
+.books_issued_status_btn{
+    background: red;
+    color: #fff;
+    border-radius: 2px;
+    padding: 3px 13px;
+    /* width: 105px; */
+    text-align: center;
+    /* width: 100%; */
+    display: inline-block;
+    border-radius: 16px;
+}
+.status_btn{
+
+ 
+
+}
+.book_title{
+    background:var(--ion-color-tertiary);
+    padding:10px 0; 
+    color:var(--ion-color-primary-contrast);
+}
+
+.book_title .title{
+    color:var(--ion-color-primary-contrast);
+   
+}
+.book_title .profile_name{
+    color:var(--ion-color-primary-contrast);
+}
+
+
+.book_details{
+    margin-bottom:5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.book_details p{
+    font-weight: 500;
+    color:var(--ion-color-tertiary-contrast);
+}
+.book_info{
+    padding:15px 0;
+}
+
+.status_btn{
+    color:var(--ion-color-primary-contrast) !important;
+}
+.book_img_class{
+    height: 20px;
+    width: 20px;
+}

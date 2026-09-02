@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+www/
+coverage/
+
+# IDE & OS files
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Security Credentials, Certificates & Keystores
+*.p12
+*.certSigningRequest
+*.mobileprovision
+*.keystore
+*.jks
+JKSInfo/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Android / iOS generated build files
+android/app/build/
+android/.gradle/
+android/local.properties
+android/capacitor-cordova-android-plugins/
+ios/App/Pods/
+ios/App/Podfile.lock
+ios/DerivedData/
+ios/capacitor-cordova-ios-plugins/

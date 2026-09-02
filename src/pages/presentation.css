@@ -1,0 +1,26 @@
+.lesson_plan_header{
+
+}
+.presentation_h{
+    font-size:18px;
+    color:#596BBA;
+}
+.lesson_plan_class_table{
+    padding:15px;
+}
+.font_weight{
+    font-weight: bold;
+}
+
+.lesson_plan_header{
+    box-shadow: 0px 1px 3px 0px #888888;
+}
+.teaching_method_h{
+    font-size:18px;
+   font-weight: bold;
+   padding:15px;
+}
+.teaching_method_content{
+    color:#868686;
+    padding:15px;
+}
