@@ -36,6 +36,7 @@ jobs:
         run: npm test -- --watchAll=false --passWithNoTests
         env:
           CI: true
+          WATCHMAN_DISABLE_FILESYSTEM_WATCHER: true   # Watchman crashes in Linux CI
 
       - name: ☕ Setup Java 17
         uses: actions/setup-java@v4
