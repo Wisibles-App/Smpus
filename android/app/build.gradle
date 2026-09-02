@@ -16,10 +16,23 @@ android {
             ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        release {
+            // Reads from environment variables set in GitHub Secrets.
+            // Falls back to local keystore file for development builds.
+            def keystorePath = System.getenv("KEYSTORE_PATH") ?: "smpus-release.jks"
+            storeFile file(keystorePath)
+            storePassword System.getenv("KEYSTORE_STORE_PASSWORD") ?: ""
+            keyAlias System.getenv("KEYSTORE_KEY_ALIAS") ?: ""
+            keyPassword System.getenv("KEYSTORE_KEY_PASSWORD") ?: ""
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
 }
