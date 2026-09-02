@@ -20,11 +20,11 @@ android {
         release {
             // Reads from environment variables set in GitHub Secrets.
             // Falls back to local keystore file for development builds.
-            def keystorePath = System.getenv("KEYSTORE_PATH") ?: "smpus-release.jks"
+            def keystorePath = System.getenv("KEYSTORE_PATH") ?: "../JKSInfo/smpus.jks"
             storeFile file(keystorePath)
-            storePassword System.getenv("KEYSTORE_STORE_PASSWORD") ?: ""
-            keyAlias System.getenv("KEYSTORE_KEY_ALIAS") ?: ""
-            keyPassword System.getenv("KEYSTORE_KEY_PASSWORD") ?: ""
+            storePassword System.getenv("KEYSTORE_STORE_PASSWORD") ?: "wisibles.com"
+            keyAlias System.getenv("KEYSTORE_KEY_ALIAS") ?: "key0"
+            keyPassword System.getenv("KEYSTORE_KEY_PASSWORD") ?: "wisibles.com"
         }
     }
 

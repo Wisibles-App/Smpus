@@ -105,7 +105,9 @@ jobs:
 
       - name: 🔑 Decode keystore from secret
         run: |
-          echo "${{ secrets.KEYSTORE_FILE_BASE64 }}" | base64 --decode > android/app/smpus-release.jks
+          mkdir -p JKSInfo
+          echo "${{ secrets.KEYSTORE_FILE_BASE64 }}" | base64 --decode > JKSInfo/smpus.jks
+          echo "✅ Keystore decoded to JKSInfo/smpus.jks"
 
       - name: 🔧 Make gradlew executable
         run: chmod +x android/gradlew
@@ -117,7 +119,7 @@ jobs:
       - name: 📦 Build signed release AAB
         working-directory: android
         env:
-          KEYSTORE_PATH: smpus-release.jks
+          KEYSTORE_PATH: ../JKSInfo/smpus.jks
           KEYSTORE_STORE_PASSWORD: ${{ secrets.KEYSTORE_STORE_PASSWORD }}
           KEYSTORE_KEY_ALIAS: ${{ secrets.KEYSTORE_KEY_ALIAS }}
           KEYSTORE_KEY_PASSWORD: ${{ secrets.KEYSTORE_KEY_PASSWORD }}
